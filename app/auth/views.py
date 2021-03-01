@@ -1,7 +1,9 @@
-rom flask import render_template,redirect,url_for
+from flask import render_template,redirect,url_for,request, session, abort, flask
 from ..models import User
-from .forms import RegistrationForm
+from .forms import LoginForm,RegistrationForm
 from .. import db
+from flask_login import login_user
+from . import auth
 
 # ....
 @auth.route('/register',methods = ["GET","POST"])
@@ -14,3 +16,4 @@ def register():
         return redirect(url_for('auth.login'))
         title = "New Account"
     return render_template('auth/register.html',registration_form = form)
+
