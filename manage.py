@@ -13,7 +13,7 @@ migrate = Migrate(app, db)
 
 
 manager.add_command('server',Server)
-manager.add('db',MigrateCommand)
+manager.add_command('db',MigrateCommand)
 
 @manager.command
 def test():
@@ -25,5 +25,6 @@ def test():
 @manager.shell
 def make_shell_context():
     return dict(app = app,db = db,User = User, Role = Role )
+    migrate = Migrate(app, db)
 if __name__ == '__main__':
     manager.run()
