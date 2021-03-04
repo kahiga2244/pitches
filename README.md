@@ -54,8 +54,8 @@ You will be able to:
         $ ./run.py
 
 - To run tests for the application
-  $ python3 ??_test.py
-  $ python3 ??_test.py
+  $ python3 tests.py
+ 
 
 ## Technologies Used
 
