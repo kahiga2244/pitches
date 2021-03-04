@@ -24,7 +24,7 @@ You will be able to:
 -view the different categories.
 
 ## Live Link
-Click here to [View Site](https://minutesss.herokuapp.com/)
+Click here to [View Site](https://pitch-eat.herokuapp.com/)
 ## Installation / Setup instruction
 
 #### The application requires the following installations to operate
