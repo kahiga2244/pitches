@@ -23,7 +23,8 @@ You will be able to:
 -submit a pitch in any category.
 -view the different categories.
 
-
+## Live Link
+Click here to [View Site](https://minutesss.herokuapp.com/)
 ## Installation / Setup instruction
 
 #### The application requires the following installations to operate
