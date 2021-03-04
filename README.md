@@ -55,8 +55,8 @@ Click here to [View Site](https://pitch-eat.herokuapp.com/)
         $ ./run.py
 
 - To run tests for the application
-  $ python3 ??_test.py
-  $ python3 ??_test.py
+  $ python3 tests.py
+ 
 
 ## Technologies Used
 
